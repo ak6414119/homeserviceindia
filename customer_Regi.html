@@ -11,10 +11,13 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+    }
+
+    .container main {
       text-align: center;
     }
 
-    h1 {
+    .container main h1 {
       margin-top: 3vh;
       margin-bottom: 5vh;
       color: #ED5555;
@@ -33,52 +36,95 @@
       margin-top: 10px;
       border-radius: 10px;
       box-shadow: 4px 4px 1px gray;
+      padding-left: 5px;
     }
 
     textarea {
       border-radius: 10px;
       box-shadow: 4px 4px 1px gray;
+      padding-left: 5px;
+      padding-top: 5px;
+
     }
-    
-    input[type=submit]{
+
+    input[type=submit] {
       width: 50%;
       background-color: red;
-      
+
     }
-    
-        input[type=submit]:active{
+
+    input[type=submit]:active {
       background-color: blue;
 
-}
+    }
   </style>
+
+  <link rel="stylesheet" href="https://ak6414119.github.io/homeserviceindia/style.css">
+
+  <script src="https://kit.fontawesome.com/4992589e0c.js" crossorigin="anonymous"></script>
+
+
 
 </head>
 
 <body>
 
-  <h1>Registration Form</h1>
+  <div class="container">
 
-  <form method="post" name="google-sheet">
-
-    <label for="Name">Name : </label><br>
-    <input type="text" id="Name" name="Name" placeholder="Enter your Name" required><br><br>
-
-    <label for="Phone">Phone : </label><br>
-    <input type="tel" id="Phone" name="Phone" placeholder="Enter your Phone" minlength="10" maxlength="10" required><br><br>
-
-    <label for="W_no">Whatsapp no : (OPTIONAL)</label><br>
-    <input type="tel" id="W_no." name="Whatsapp No." minlength="10" maxlength="10" placeholder="Enter your Whatsapp No."><br><br>
-
-    <label for="Email">Email : (OPTIONAL)</label><br>
-    <input type="email" name="Email" id="Email" placeholder="Enter your Email"><br><br>
+    <header>
+      <div class="nav">
+        <nav id="nav">
+          <a href="https://ak6414119.github.io/homeserviceindia/index.html">Home</a>
+          <a href="https://ak6414119.github.io/homeserviceindia/about.html">About</a>
+          <a href="https://ak6414119.github.io/homeserviceindia/contact.html">Contact</a>
+          <a href="https://ak6414119.github.io/homeserviceindia/services.html">Services</a>
 
 
-    <label for="Address">Address : </label><br>
-    <textarea name="Address" id="Address" cols="50" rows="10" placeholder="Enter your Address" required></textarea><br><br>
+        </nav>
 
-    <input type="submit" value="Submit" name="submit">
-  </form>
+      </div>
 
+
+
+      <div class="sname">
+
+        <img src="https://ak6414119.github.io/homeserviceindia/logo.png" alt="school img" id="logo">
+        <div class="sname1">
+
+          <h1 id="sname">Home Services India</h1>
+        </div>
+
+        <i class=" icon fa-solid fa-align-justify" id="icon"></i>
+
+      </div>
+    </header>
+
+    <main>
+
+      <h1>Registration Form</h1>
+
+      <form method="post" name="google-sheet">
+
+        <label for="Name">Name : </label><br>
+        <input type="text" id="Name" name="Name" placeholder="Enter your Name" required><br><br>
+
+        <label for="Phone">Phone : </label><br>
+        <input type="tel" id="Phone" name="Phone" placeholder="Enter your Phone" minlength="10" maxlength="10" required><br><br>
+
+        <label for="W_no">Whatsapp no : (OPTIONAL)</label><br>
+        <input type="tel" id="W_no." name="Whatsapp No." minlength="10" maxlength="10" placeholder="Enter your Whatsapp No."><br><br>
+
+        <label for="Email">Email : (OPTIONAL)</label><br>
+        <input type="email" name="Email" id="Email" placeholder="Enter your Email"><br><br>
+
+
+        <label for="Address">Address : </label><br>
+        <textarea name="Address" id="Address" cols="50" rows="10" placeholder="Enter your Address" required></textarea><br><br>
+
+        <input type="submit" value="Submit" name="submit">
+      </form>
+    </main>
+  </div>
 
 </body>
 
@@ -89,10 +135,11 @@
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
       .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon... If we will not contact with you , then you can whatsapp me "))
-      .then(response => open("https://ak6414119.github.io/homeserviceindia/index.html"))
+      .then(response => open("index.html"))
       .catch(error => console.error('Error!', error.message))
   })
 </script>
 
+<script src="https://ak6414119.github.io/homeserviceindia/main.js"></script>
 
 </html>
