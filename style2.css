@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+
+
+.container main .main-ab .about {
+  width: 94%;
+  height: self;
+  margin: 0vw 3vw 10vw 3vw;
+  background-color: white;
+  padding-bottom: 5vh;
+}
+
+.container main .main-ab .about h2 {
+  padding: 0 4.85%;
+  font-size: 125%;
+  color: darkcyan;
+  font-weight: 600%;
+  margin-bottom: 3vw;
+  margin-top: 10vw;
+  font-family: inherit;
+}
+
+.container main .main-ab .about p {
+  padding: 1% 4.85% 0 4.85%;
+  font-size: 80%;
+  margin-bottom: 3vw;
+line-height: 25px;
+}
+
+.container main .main-ab .about .visionary {
+  margin-top: 10vw;
+  padding: 1% 4.85% 0 4.85%;
+}
+.container main .main-ab .about .visionary ul li{
+list-style: none;
+font-weight: bolder;
+padding-bottom: 2vw;
+}
+.container main .main-ab .about .visionary-img{
+  width: 60vw;
+  height: 60vw;
+background-image: url(/visionary.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+border: 7px solid white;
+border-radius: 10px;
+box-shadow: 2px 2px 10px;
+}
+
+.container main .main-ab .about a {
+text-decoration: none;
+}

@@ -1,0 +1,143 @@
+.container main {
+  width: 100%;
+  height: 100vw;
+
+}
+
+.container main .head {
+  width: 100%;
+  height: 75%;
+  margin-top: 4vw;
+  text-align: left;
+  background: url(/img5.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.container main .head h1 {
+  width: 100%;
+  height: 100%;
+  background-color: #0000006B;
+  color: white;
+  padding-top: 15%;
+  padding-left: 5%;
+  font-size: 8vw;
+
+}
+
+.container main .navi {
+  width: 100%;
+  height: auto;
+  margin-top: 3vw;
+}
+
+.container main .navi a {
+  padding-left: 3vw;
+  text-decoration: none;
+  color: darkgray;
+}
+
+.container main .navi span {
+  padding-left: 2vw;
+
+}
+
+.container main .main-c {
+  width: 94%;
+  height: auto;
+  margin: 5vw 3vw;
+  border-radius: 10px;
+  background-color: #F5F7F7;
+  padding-bottom: 3vw;
+}
+
+.container main .main-c .thank {
+  text-align: center;
+}
+
+.container main .main-c h1 {
+  padding: 4vw 0;
+  color: #808080;
+}
+
+.container main .main-c p {
+  padding: 0 3vw;
+}
+
+.container main .main-c .address {
+  width: 94%;
+  height: self;
+  margin: 5vw 3vw;
+  background-color: white;
+}
+
+.container main .main-c .address h2 {
+  padding: 6vw 6vw 0 6vw;
+  font-size: 6vw;
+text-align: left;
+}
+
+.container main .main-c .address h3 {
+  padding: 2.5vw 6vw 0 6vw;
+  font-size: 4vw;
+  color: #77B5FF;
+  text-align: left;
+
+}
+
+.container main .main-c .address p {
+  padding: 2.5vw 6vw 0 6vw;
+  width: 85%;
+}
+.container main .main-c .main-add {
+text-align: center;
+}
+
+.container main .main-c .main-add p {
+  line-height: 40px;
+  text-align: left;
+    /*padding-bottom: 30vw;*/
+}
+.container main .main-c .main-add i{
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50px;
+  font-size: 8vw;
+  padding: 1vh;
+  margin-left: .5vw;
+  margin-bottom: 2vh;
+  color: #007CC5;
+  background-color: white;
+}
+.container main .main-c .teach-req{
+  padding-bottom: 20vw;
+
+}
+.container main .main-c .teach-req p {
+  line-height: 25px;
+
+}
+.container main .main-c .teach-req .app-btn{
+text-align: center;
+margin-top: 3vw;
+}
+.container main .main-c .teach-req button{
+width: 25vw;
+height: 8vw;
+background-color: red;
+color: white;
+border: 2px solid red;
+border-radius: 5px;
+}
+.container main .main-c .teach-req button:active{
+background-color: blue;
+color: white;
+border: 2px solid blue;
+}
+.container main .main-c .map h2{
+text-align: center;
+}
+
+.container main .main-c .map iframe{
+border-radius: 20px;
+padding: 10vw 3vw 3vw 3vw;
+}
