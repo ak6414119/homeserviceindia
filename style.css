@@ -55,7 +55,7 @@
 }
 
 .container header .sname #sname {
-  font-size: 6.5vw;
+  font-size: 6vw;
   display: inline;
   position: relative;
   top: .5vh;
@@ -71,7 +71,7 @@
   padding: 10px;
   border-radius: 5px;
   position: absolute;
-  left: 90%;
+  left: 88%;
   top: 2.5vh;
   transform: rotate(0deg);
   transition: all .2s;
