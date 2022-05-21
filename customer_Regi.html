@@ -143,6 +143,10 @@ text-align: left;
         <label for="Address">Address : </label><br>
         <textarea name="Address" id="Address" cols="50" rows="10" placeholder="Enter your Address" required></textarea><br><br>
 
+         <p id="loading" style="display: none;">Loding Please Wait... </p><br>
+
+
+
         <input type="submit" value="Submit" name="submit">
       </form>
 </div>
@@ -155,6 +159,12 @@ text-align: left;
   const scriptURL = 'https://script.google.com/macros/s/AKfycbxTGK5Mt8wQ5pMDIBLGpe68ovZGd6FL9hQwY55b134-Yxb2EkD6ZiG5MuN8TNICQBpO8g/exec'
   const form = document.forms['google-sheet']
   form.addEventListener('submit', e => {
+
+    let loading = document.getElementById("loading");
+      loading.style.display = "block";
+
+
+
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
       .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon... If we will not contact with you , then you can whatsapp me "))
