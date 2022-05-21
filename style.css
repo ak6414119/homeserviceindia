@@ -118,13 +118,13 @@
   background: url(https://ak6414119.github.io/homeserviceindia/img1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  animation: slide 40s infinite;
-  animation-delay: 2s;
+  animation: slide 45s infinite;
+  animation-delay: 5s;
 }
 
 @keyframes slide {
 
-  3% {
+  0% {
     background: url(https://ak6414119.github.io/homeserviceindia/img2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
