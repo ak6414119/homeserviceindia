@@ -119,12 +119,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   animation: slide 40s infinite;
-  animation-delay: 1s;
+  animation-delay: 2s;
 }
 
 @keyframes slide {
 
-  0% {
+  3% {
     background: url(https://ak6414119.github.io/homeserviceindia/img2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -161,19 +161,19 @@
   }
   
   75% {
-    background: url(https://ak6414119.github.io/homeserviceindia/img8.jpeg);
+    background: url(https://ak6414119.github.io/homeserviceindia/img.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   87.5% {
-    background: url(https://ak6414119.github.io/homeserviceindia/img2.jpeg);
+    background: url(https://ak6414119.github.io/homeserviceindia/img1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   100% {
-    background: url(https://ak6414119.github.io/homeserviceindia/img.jpeg);
+    background: url(https://ak6414119.github.io/homeserviceindia/img2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
   }
