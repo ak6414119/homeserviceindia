@@ -115,7 +115,7 @@
   height: 80vw;
   border-radius: 5px;
   margin: 2vh 2vw 0vh 2vw;
-  background: url(/img1.jpeg);
+  background: url(https://ak6414119.github.io/homeserviceindia/img1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   animation: slide 40s infinite;
@@ -125,55 +125,55 @@
 @keyframes slide {
 
   0% {
-    background: url(/img2.jpeg);
+    background: url(https://ak6414119.github.io/homeserviceindia/img2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   12.5% {
-    background: url(/img3.png);
+    background: url(https://ak6414119.github.io/homeserviceindia/img3.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
 25% {
-    background: url(/img4.jpeg);
+    background: url(https://ak6414119.github.io/homeserviceindia/img4.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   37.5% {
-    background: url(/img5.jpeg);
+    background: url(https://ak6414119.github.io/homeserviceindia/img5.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   50% {
-    background: url(/img6.jpeg);
+    background: url(https://ak6414119.github.io/homeserviceindia/img6.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   62.5% {
-    background: url(/img7.jpeg);
+    background: url(https://ak6414119.github.io/homeserviceindia/img7.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   75% {
-    background: url(/img8.jpeg);
+    background: url(https://ak6414119.github.io/homeserviceindia/img8.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   87.5% {
-    background: url(/img2.jpeg);
+    background: url(https://ak6414119.github.io/homeserviceindia/img2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   100% {
-    background: url(/img.jpeg);
+    background: url(https://ak6414119.github.io/homeserviceindia/img.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
   }
